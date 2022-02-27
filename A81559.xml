@@ -1,0 +1,536 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Symbolum apostolicum.</title>
+            <author>Ditton, George.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1649</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 19 KB of XML-encoded text transcribed from 1 1-bit group-IV TIFF page image.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A81559</idno>
+            <idno type="STC">Wing D1706</idno>
+            <idno type="STC">Thomason 669.f.14[84]</idno>
+            <idno type="STC">ESTC R211297</idno>
+            <idno type="EEBO-CITATION">99870026</idno>
+            <idno type="PROQUEST">99870026</idno>
+            <idno type="VID">163071</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A81559)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 163071)</note>
+            <note>Images scanned from microfilm: (Thomason Tracts ; 246:669f14[84])</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Symbolum apostolicum.</title>
+                  <author>Ditton, George.</author>
+               </titleStmt>
+               <extent>1 sheet ([1] p.)   </extent>
+               <publicationStmt>
+                  <publisher>Printed by Thomas Harper, and are to be sold by John Courtney, in Salisbury,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1650 [i.e. 1649]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Signed at end: George Ditton.</note>
+                  <note>Thomason recieved his copy 13 October 1649.</note>
+                  <note>Annotation on Thomason copy: "Octob 31" [barely legible].</note>
+                  <note>Partially in verse, with side-notes.</note>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Apostles' Creed --  Poetry --  Early works to 1800.</term>
+               <term>Lord's prayer --  Poetry --  Early works to 1800.</term>
+               <term>Prayer --  Christianity --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2007-10</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2007-10</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-06</date>
+            <label>John Latta</label>Sampled and proofread</change>
+         <change>
+            <date>2010-06</date>
+            <label>John Latta</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <body>
+         <div type="poem">
+            <pb facs="tcp:163071:1" rendition="simple:additions"/>
+            <head>SYMBOL<g ref="char:V">Ʋ</g>M APOSTOLICVM.</head>
+            <l>
+               <hi>I</hi>—Who am ſinfull in the <note n="a" place="margin">To ſave ſinners; of whom I am chief, 1 Tim. 1, 15.</note> greateſt ſence</l>
+            <l>
+               <hi>Believe</hi>—In Heart, and place my Confidence</l>
+            <l>
+               <hi>In</hi>—Him, who framed all things by his <note n="b" place="margin">He ſpake and it was done, he commanded and it ſtood faſt, Pſal. 33. 9.</note> word</l>
+            <l>
+               <hi>God</hi>—IA H, all potent, all commanding Lord,</l>
+            <l>
+               <hi>The</hi>—Life of all, hath <note n="c" place="margin">He giveth to all things life, &amp; breath, and all things. In him we live, move, and have our being, Acts 17, 25, 28.</note> Motion, Being, Birth,</l>
+            <l>
+               <hi>Father</hi>—Of all ſo call'd in <note n="d" place="margin">Epheſ. 3, 15.</note> Heaven and Earth:</l>
+            <l>
+               <hi>Almighty</hi>—Giving faſhion to each Matter,</l>
+            <l>
+               <hi>Maker</hi>—According to his Rules of Nature, <note n="e" place="margin">Deus &amp; naturae crea<g ref="char:EOLhyphen"/>vit.</note>
+            </l>
+            <l>
+               <hi>Of</hi>—All unſeene, as of that which we name</l>
+            <l>
+               <hi>Heaven</hi>—The Grace of the Created Frame;</l>
+            <l>
+               <hi>And</hi>—Likewiſe made, as <note n="f" place="margin">For by him were all things created in heaven and in earth, viſible and inviſible, Coloſ. 1 16.</note> of all things Beginner,</l>
+            <l>
+               <hi>Earth</hi>—With thoſe various Formes that flouriſh in her.</l>
+            <l>
+               <hi>And</hi>—For aſſurance, there my Faith is fixt</l>
+            <l>
+               <hi>In</hi>—Him was <note n="g" place="margin">Perfect God and perfect man, of a rea<g ref="char:EOLunhyphen"/>ſonable ſoule, and humane fleſh ſubſiſt<g ref="char:EOLhyphen"/>ing, Athan Symb.</note> God and Man, a Perſon mixt.</l>
+            <l>
+               <hi>Ieſus</hi>—Who <note n="h" place="margin">Thou ſhalt call his name Ieſus, for he ſhall ſave his people from their ſinnes, Mat. 1. 21.</note> did ſalvation to us bring.</l>
+            <l>
+               <hi>Chriſt</hi>—The <note n="i" place="margin">God apointed Ieſus of Nazareth with the Holy Ghoſt, and with power, Acts 10, 38.</note> Anoynted Prophet, Prieſt, and King,</l>
+            <l>
+               <hi>His</hi>—Fathers <note n="k" place="margin">This is my beloved Son, in whom I am well pleaſd, Mat. 17, 5.</note> ſelfe, none able to ſubdue Him,</l>
+            <l>
+               <hi>Onely</hi>—As having not a Second to Him.</l>
+            <l>
+               <hi>Sonne</hi>—Of th' Eternall Father, <note n="l" place="margin">Light of light, very God of very God, Athan. Symb.</note> Light of Light,</l>
+            <l>
+               <hi>Our</hi>—Churches great Protectour day and night:</l>
+            <l>
+               <hi>Lord</hi>—Unto us by Nature, Grace, and Glory,</l>
+            <l>
+               <hi>Which</hi>—Shewing he was more then tranſitory,</l>
+            <l>
+               <hi>Was</hi>—Not as other Mortals are indeede</l>
+            <l>
+               <hi>Conceiv'd</hi>—In ſinne, but of immortall ſeede,</l>
+            <l>
+               <hi>By</hi>—The <note n="m" place="margin">The Holy Ghoſt ſhal come upon thee. and the power of the Higheſt ſhal overſha<g ref="char:EOLhyphen"/>dow thee, Luke 1, 35.</note> overſhadowing pow'r of God, or rather</l>
+            <l>
+               <hi>The</hi>—Spirit came down, ſent from th' Eternall Father,</l>
+            <l>
+               <hi>Holy</hi>—To ſhew his Nature free from ſinne,</l>
+            <l>
+               <hi>Ghoſt</hi>—And not fleſh, nor was, nor er'e had been.</l>
+            <l>
+               <hi>Borne</hi>—When <note n="n" place="margin">Gal. 4, 4.</note> the fulneſſe of the time was come</l>
+            <l>
+               <hi>Of</hi>—One <note n="o" place="margin">Rom 1, 3.</note> of DAVIDS Line, of Maiden wombe,</l>
+            <l>
+               <hi>The</hi>—Wonder of her Sexe, when ſhe on Earth</l>
+            <l>
+               <hi>Virgin</hi>—Remain'd, <note n="p" place="margin">Vugo fuit partum, poſt, in, &amp; ante ſuum.</note> before, in, after's Birth,</l>
+            <l>
+               <hi>Mary</hi>—Exalted <note n="q" place="margin">
+                  <hi>Mari &amp; Martam,</hi> ſignifit exalted.</note> Maid; then by his Foes</l>
+            <l>
+               <hi>Suffred</hi>—What Malice could on him impoſe</l>
+            <l>
+               <hi>
+                  <g ref="char:V">Ʋ</g>nder</hi>—The Roman Judge, t'injuſtice bent,</l>
+            <l>
+               <hi>Pontius Pilat,</hi>—Yet <note n="r" place="margin">He tooke water &amp; waſhed his hands be<g ref="char:EOLhyphen"/>fore the multitude, ſaying, I am innocent of the blood of this juſt perſon, Mat 27. 24.</note> pronounc't him innocent.</l>
+            <l>
+               <hi>Was</hi>—Flouted, ſcorn'd, expos'd to all diſhonour,</l>
+            <l>
+               <hi>Crucifi'd</hi>—Murdred, ſlaine in barb'rous manner:</l>
+            <l>
+               <hi>Dead</hi>—And extended, of all life bereav'd,</l>
+            <l>
+               <hi>And</hi>—Was that others might not be deceiv'd:</l>
+            <l>
+               <hi>Buried</hi>—And <note n="ſ" place="margin">They went and made the Sepulcher ſure, ſealing the ſtone and ſetting a watch, Mat. 27, 66.</note> lockt in <note n="t" place="margin">He made his grave with the rich in his death, Iſ. 53, 9. Ioſeph of Arimathea, an ho<g ref="char:EOLhyphen"/>norable Counſellour, went in boldly, and craved the body of Ieſus, and layd him in a Scpulches, Mar. 15, 43, 46.</note> Honourable Tombe,</l>
+            <l>
+               <hi>He</hi>—Whiles his Corps was reſting in Earths wombe;</l>
+            <l>
+               <hi>Deſcended</hi>—Far <note n="u" place="margin">Epheſ 3. 9.</note> below in glorious manner</l>
+            <l>
+               <hi>Into</hi>—That place, where with victorious Banner</l>
+            <l>
+               <hi>Hell</hi>—Saw him triumph, Devils trembled when</l>
+            <l>
+               <hi>The</hi>—Lord <note n="w" place="margin">Numb 16. 22.</note> of ſpirits and fleſh appeared: Then</l>
+            <l>
+               <hi>Third day</hi>—To <note n="x" place="margin">Mat. 16, 21.</note> ſhew his God head without ſtriving,</l>
+            <l>
+               <hi>He</hi>—As the Lord of Dead, and King of Living,</l>
+            <l>
+               <hi>Roſe</hi>—As a <note n="y" place="margin">Iſay. 25. 8.</note> Conquerour, and then was ſeene</l>
+            <l>
+               <hi>Againe</hi>—On Earth, as if he ne're had beene</l>
+            <l>
+               <hi>From</hi>—Thence by Death remov'd; and then to ſhew</l>
+            <l>
+               <hi>The</hi>—Truth of all his Enemies overthrow,</l>
+            <l>
+               <hi>Dead</hi>—Men <note n="z" place="margin">Mat. 27, 52, 53.</note> appear'd, and teſtifi'd 'twas ſo.</l>
+            <l>
+               <hi>He</hi>—Having Now on Earth Staid <note n="&amp;" place="margin">Acts 1, 3.</note> forty dayes,</l>
+            <l>
+               <hi>Aſcended</hi>—Far <note n="1" place="margin">He aſcended up far above the Heavens, Epheſ. 4. 10.</note> beyond the Suns bright raies</l>
+            <l>
+               <hi>Into</hi>—The place, where 'bove the Starry Skye</l>
+            <l>
+               <hi>Heaven</hi>—Is the <note n="2" place="margin">Acts 7, 49.</note> Throne of Sacred'ſt Majeſty.</l>
+            <l>
+               <hi>And</hi>—There Coequall to the <note n="3" place="margin">Heb. 12, 9.</note> Father of Spirits,</l>
+            <l>
+               <hi>Sitteth</hi>—As Heire, and Glory now inherits</l>
+            <l>
+               <hi>On</hi>—Glories <note n="4" place="margin">Mat. 19 28.</note> ſeate, and being free from ſinning,</l>
+            <l>
+               <hi>The</hi>—Place his now; ſo 'twas before <note n="5" place="margin">Heb 7. 3.</note> beginning.</l>
+            <l>
+               <hi>Right Hand</hi>—Hath ever been <note n="6" place="margin">Tux mihi Pa<gap reason="illegible: faint" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>is erat dextram tetigiſſe Ty<g ref="char:EOLunhyphen"/>ranni.</note> of peace the ſigne</l>
+            <l>
+               <hi>Of</hi>—Ours it was, by Him who did conjoyne</l>
+            <l>
+               <hi>God</hi>—And Mankinde, and freely <note n="7" place="margin">2 Cor. 5, 10, 19.</note> reconcil'd</l>
+            <l>
+               <hi>The</hi>—Incenſed Party, now by <note n="8" place="margin">Coloſ. 1, 20.</note> blood growne mild.</l>
+            <l>
+               <hi>Father</hi>—By's Son is <note n="9" place="margin">In whom I am wel pleaſed, Mat. 3 <hi>ult</hi>
+               </note> pleas'd the worke being done,</l>
+            <l>
+               <hi>Almighty</hi>—Father by th' <note n="10" place="margin">The Father is Al<g ref="char:EOLhyphen"/>mighty, the Sonne Almighty. A<gap reason="illegible: faint" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>han.</note> Almighty Sonne:</l>
+            <l>
+               <hi>From</hi>—Which moſt glorious place, that ne're hath ending,</l>
+            <l>
+               <hi>Thence</hi>—With <note n="11" place="margin">Dan 7 10.</note> ten thouſand thouſand Saints attending</l>
+            <l>
+               <hi>He</hi>—That now ſits to plead as <note n="12" place="margin">1 Iohn 7, 1.</note> Advocate</l>
+            <l>
+               <hi>Shall</hi>—On the <note n="13" place="margin">Pſ. 18, 10, &amp; 104 3.</note> winged <note n="14" place="margin">Mat 26, 64.</note> clouds in pow'r &amp; ſtate</l>
+            <l>
+               <hi>Come</hi>—Swiftly <note n="15" place="margin">Mat. 24, 27.</note> downe cloathed in <note n="16" place="margin">2 Theſ. 1, 8.</note> flaming fire,</l>
+            <l>
+               <hi>To</hi>—Give <note n="17" place="margin">Rev. 22, 12. Mat. 13, 41, &amp;c.</note> the bad their doome, the good their hire.</l>
+            <l>
+               <hi>Iudge</hi>—Juſt, and <note n="18" place="margin">Acts 10, 42.</note> univerſall He ſhall be</l>
+            <l>
+               <hi>The</hi>—Unjuſt to captivate, the juſt to free:</l>
+            <l>
+               <hi>Quicke</hi>—At his then appearing, being <note n="19" place="margin">1 Cor. 15, 52, 53.</note> chang'd,</l>
+            <l>
+               <hi>And</hi>—Every perſon then in order <note n="20" place="margin">Mat. 25, 33, 34, 31.</note> rang'd:</l>
+            <l>
+               <hi>The</hi>—Sentence (20) ſhall heare pafſed for their faults</l>
+            <l>
+               <hi>Dead</hi>—All <note n="21" place="margin">Rev. 20, 12. <hi>Sur<g ref="char:EOLhyphen"/>gite Mortui &amp; venite ad Judicium.</hi>
+               </note> firſt ſummon'd from their hallow Vaults.</l>
+            <l>
+               <hi>I</hi>—Furthermore to ſhew I doe not erre,</l>
+            <l>
+               <hi>Beleeve</hi>—On Him Chriſt calls the <note n="22" place="margin">Iohn 14, 16.</note> Comforter:</l>
+            <l>
+               <hi>In</hi>—Th' ſpirit of Life, and <note n="23" place="margin">Iohn 14, 17.</note> Truth that cannot lye,</l>
+            <l>
+               <hi>The</hi>—Bleſſed Third in Bleſſed Trinity:</l>
+            <l>
+               <hi>Holy</hi>—And Pure, us Pure and Cleane to make</l>
+            <l>
+               <hi>Ghoſt</hi>—And <note n="24" place="margin">A Spirit hath not fleſh and bones as yee ſee me have, Luke 24. 39.</note> not Fleſh and Bones, which Chriſt did take.</l>
+            <l>
+               <hi>The</hi>—Limbs of Chriſt, which ever had a Being,</l>
+            <l>
+               <hi>Holy</hi>—Are call'd, as with <note n="25" place="margin">Col 1, 18.</note> the Head agreeing:</l>
+            <l>
+               <hi>Catholike</hi>—'Tis, as without Limitation,</l>
+            <l>
+               <hi>Church</hi>—Of our <note n="26" place="margin">1 Tim. 3, 5.</note> God, the bleſſed Congregation.</l>
+            <l>
+               <hi>The</hi>—Parts diſperſt are here, in Heav'n above</l>
+            <l>
+               <hi>Communion</hi>—Proofe, made one by <note n="27" place="margin">Col 2, 2. Eph 4. 13. 1 Tim 1, 14.</note> Faith and Love:</l>
+            <l>
+               <hi>Of</hi>—Whoſe ſweet unity, this I believe</l>
+            <l>
+               <hi>Saints</hi>—Shall be one in <note n="28" place="margin">Io. 16, 20. Pſ 126. 5, 16.</note> Joy, though now they grieve.</l>
+            <l>
+               <hi>The</hi>—Chiefeſt thing that I looke after, is</l>
+            <l>
+               <hi>Forgivenes</hi>—For <note n="29" place="margin">Pſal. 32. 6.</note> what e're I've done amiſſe:</l>
+            <l>
+               <hi>Of</hi>—All for which I may be blam'd or ſhent,</l>
+            <l>
+               <hi>Sinnes</hi>—Of <note n="30" place="margin">Though Searlet or Crimſon ſinnes, Iſay. 1, 18.</note> all ſorts; of this I'me confident.</l>
+            <l>
+               <hi>The Reſurrection</hi>—And the full Reviving</l>
+            <l>
+               <hi>Of</hi>—All <note n="31" place="margin">2 Cor. 5, 10.</note> have been on earth ſince ADAM Living</l>
+            <l>
+               <hi>The</hi>—Soule that may be parted long from this</l>
+            <l>
+               <hi>Body</hi>—Of Mine, ſhall then both ſhare of bliſſe:</l>
+            <l>
+               <hi>And</hi>—When my Bodies rais'd and pardon ſeal'd,</l>
+            <l>
+               <hi>The</hi>—Timeleſſe joyes of Heaven yet <note n="32" place="margin">1 Cor. 2, 9.</note> unreveal'd:</l>
+            <l>
+               <hi>Life</hi>—Without dying, I ſhall then poſſeſſe</l>
+            <l>
+               <hi>Everlaſting,</hi>—In full growne Happineſſe.</l>
+            <l>
+               <note n="33" place="margin">Amen, is not one<g ref="char:EOLhyphen"/>ly a wiſh or deſire of a thing to be ſo; but alſo an argument that the thing is granted. Weem. in Mand. 3.</note> 
+               <hi>Amen</hi>—So be it when my Race is runne,</l>
+            <l>
+               <hi>Amen</hi>—So verily it ſhall be done.</l>
+         </div>
+         <div type="poem">
+            <head>Oratio Dominica.</head>
+            <l>
+               <hi>O</hi>—All ſufficient, which didſt firſt Create</l>
+            <l>
+               <hi>Our</hi>—Firſt Grand Parents Pure, Immaculate:</l>
+            <l>
+               <hi>Father</hi>—Of Comfort, God of Conſolation,</l>
+            <l>
+               <hi>Which</hi>—Set'ſt them in a happy Habitation.</l>
+            <l>
+               <hi>Art</hi>—Not thou he which at the firſt didſt frame,</l>
+            <l>
+               <hi>In</hi>—Juſt reſpect unto thy glorious Name,</l>
+            <l>
+               <hi>Heavens</hi>—Goodly Piece, with Angels that doe ſing</l>
+            <l>
+               <hi>Hallowed</hi>—And prais'd be our all-great-good King:</l>
+            <l>
+               <hi>Bee</hi>—As thou art, great, good, juſt, gratious, then</l>
+            <l>
+               <hi>Thy</hi>—Praiſe ſhall Eccho by all ſorts of Men:</l>
+            <l>
+               <hi>Name</hi>—Who dare name, when, where, or whom he will?</l>
+            <l>
+               <hi>Thy</hi>—Name's of power in Heaven, Earth, and Hell.</l>
+            <l>
+               <hi>Kingdome</hi>—'Gainſt Kingdome here their forces bend:</l>
+            <l>
+               <hi>Come</hi>—What come will thy Kingdome nere ſhall end:</l>
+            <l>
+               <hi>Thy</hi>—Gracious word the Quire that is above</l>
+            <l>
+               <hi>Will</hi>—Aye performe in perfect pureſt Love.</l>
+            <l>
+               <hi>Bee</hi>—Pleaſed then great God that we who have</l>
+            <l>
+               <hi>Done</hi>—For thy Glory, may thy Mercy crave:</l>
+            <l>
+               <hi>In</hi>—Perfect Faith and Love, and finde it, when</l>
+            <l>
+               <hi>Earth</hi>—Shall to Earth reſtored be agen:</l>
+            <l>
+               <hi>As</hi>—We are ſure all things in Heaven being done,</l>
+            <l>
+               <hi>'Tis</hi>—Thy good pleaſure and thy will alone:</l>
+            <l>
+               <hi>In</hi>—Earth therefore wee'l ſtrive, thy word to obey,</l>
+            <l>
+               <hi>Heaven</hi>—Is our patterne to direct the way.</l>
+            <l>
+               <hi>Give</hi>—Freely Lord, who at thy Mercy ſtand,</l>
+            <l>
+               <hi>
+                  <g ref="char:V">Ʋ</g>s</hi>—Who implore it at thy gracious hand,</l>
+            <l>
+               <hi>This</hi>—Small Petition for the Body fit,</l>
+            <l>
+               <hi>Day</hi>—After Day having, wee'l pray for it:</l>
+            <l>
+               <hi>Our</hi>—Food from Body-ſtarving we deſire,</l>
+            <l>
+               <hi>Dayly</hi>—By Faith in Chriſt we this require,</l>
+            <l>
+               <hi>Bread</hi>—Which is Mankinds Staffe, Lord nere deny us,</l>
+            <l>
+               <hi>And</hi>—Thou ſhalt ſtill be magnified by us.</l>
+            <l>
+               <hi>Forgive</hi>—Eſpecially Lord we intreate</l>
+            <l>
+               <hi>
+                  <g ref="char:V">Ʋ</g>s</hi>—Who appeale unto thy Mercy-ſeate,</l>
+            <l>
+               <hi>Our</hi>—Crying Debts, which we doe juſtly call</l>
+            <l>
+               <hi>Trespaſſes,</hi>—Sins, offences great and ſmall:</l>
+            <l>
+               <hi>As</hi>—From the bottome of our hearts for ever,</l>
+            <l>
+               <hi>Wee</hi>—Thoſe that in their Malice doe perſever,</l>
+            <l>
+               <hi>Forgive</hi>—Moſt freely, praying thee to bleſſe</l>
+            <l>
+               <hi>Them</hi>—That againſt us any wayes tranſgreſſe:</l>
+            <l>
+               <hi>That</hi>—In thy rigorous and ſevere decree,</l>
+            <l>
+               <hi>Trespaſſe</hi>—Or ſin may ne're revenged bee.</l>
+            <l>
+               <hi>Againſt</hi>—Thee onely we have ſinned Lord,</l>
+            <l>
+               <hi>
+                  <g ref="char:V">Ʋ</g>s</hi>—Therefore pardon we intreate thee afford.</l>
+            <l>
+               <hi>And</hi>—'Cauſe we are in danger of the Devill,</l>
+            <l>
+               <hi>Leade</hi>—Lord thy Flock from wickedneſſe, from evill<g ref="char:punc">▪</g>
+            </l>
+            <l>
+               <hi>
+                  <g ref="char:V">Ʋ</g>s</hi>—In eſpeciall we intreate thee ſpare,</l>
+            <l>
+               <hi>Not</hi>—Of us only, but of all take care:</l>
+            <l>
+               <hi>Into</hi>—Old Sathans traps ne're let us fall,</l>
+            <l>
+               <hi>Temptatio<g ref="char:cmbAbbrStroke">̄</g>
+               </hi>—Sweeteſt baite he laies for all:</l>
+            <l>
+               <hi>But</hi>—In thy tender Mercy and Compaſſion</l>
+            <l>
+               <hi>Deliver</hi>—Lord thy Church from foule tranſgreſſion.</l>
+            <l>
+               <hi>
+                  <g ref="char:V">Ʋ</g>s</hi>—Have reſpect unto, who by thy power</l>
+            <l>
+               <hi>From</hi>—Sin and Sathan muſt be freed each houre,</l>
+            <l>
+               <hi>Evill</hi>—Elſe purſues; from thee then lets not ſwerve,</l>
+            <l>
+               <hi>For</hi>—All is thine, and all things thee doe ſerve:</l>
+            <l>
+               <hi>Thine</hi>—In reſpect of glorious Scituation</l>
+            <l>
+               <hi>Is</hi>—All this Fabrick, all thine by Creation;</l>
+            <l>
+               <hi>The</hi>—Heavens above where God in Glory raignes,</l>
+            <l>
+               <hi>Kingdome</hi>—Of Earth, which for a while remaines.</l>
+            <l>
+               <hi>The</hi>—Providence of all is in thy Hand,</l>
+            <l>
+               <hi>Power</hi>—And Protection are at thy Command:</l>
+            <l>
+               <hi>And</hi>—Th' effuſion of all Grace into</l>
+            <l>
+               <hi>The</hi>—Hearts of Chriſtians thou canſt cauſe and doe:</l>
+            <l>
+               <hi>Glory</hi>—Attends thee, Grace and Glory's thine,</l>
+            <l>
+               <hi>For</hi>—Thus 'twas ordered by thy will divine:</l>
+            <l>
+               <hi>Ever</hi>—'Twas ſo before that Man offended,</l>
+            <l>
+               <hi>And</hi>—So't ſhall be when all by fire is ended:</l>
+            <l>
+               <hi>Ever</hi>—Therefore wee'l praiſe thy Name, and ſay</l>
+            <l>
+               <hi>Amen</hi>To all: Thus let all Chriſtians pray.</l>
+         </div>
+         <div type="to_the_reader">
+            <head>To the Old-Proteſtant-Chriſtian Reader.</head>
+            <p>VVHen one of the Diſciples of our Bleſſed Saviour begged this boone of his Maſter for himſelfe, and his fellowes; Lord teach us to pray, as John alſo taught his Diſciples, Luke 11. 2. Chriſt did not then anſwer them, as he did upon another occaſion, when they were to be brought before Kings and Governours for his ſake: For then he bids them take no thought, how, or what they ſhall ſpeake, becauſe it ſhall be given them in that houre what they ſhall ſpeake, Mat. 10. 19. But now although he were as well able to put words into their mouthes to pray to his Father, as the Holy Ghoſt was then to anſwer their Perſecutors: Yet he doth not ſay, Take no thought, how, or what yee ſhall pray; for it ſhall be given you in that houre what yee ſhall pray: Neither doth he adde as he doth there, v. 20. For it is not yee that pray, but the Spirit of my Father that prayeth in you: He neither makes ſuch an Anſwer, nor addes ſuch a Rea<g ref="char:EOLhyphen"/>ſon, but tells them what things they ſhall pray for, and in what words preſent it; this being his Anſwer to the Petition, when yee pray, ſay, Our Father which art in Heaven, &amp;c. From which Petition of the Diſciple, and anſwer of the beſt skil'd Maſter, <hi>I</hi> have theſe few things obſervable.</p>
+            <p n="1">1. That John the Baptiſt (as it is very apparent) did preſcribe and teach his Diſciples a ſet Forme of Prayer, and did not bid them (as it is now ſaid) pray by the ſpirit.</p>
+            <p n="2">2. From this anſwer of our Saviour it may be gathered, that a ſet Forme of Prayer is lawfull for all Chriſtians, as it was for the Diſciples of Chriſt, and St John.</p>
+            <p n="3">3. That this Prayer which Chriſt taught his Diſciples is not to be neglected of any, but may, and ought to be uſed and practiſed of all, in obedience to Chriſt who commands it.</p>
+            <p n="4">4. That both the Diſciples of John, and our Saviour praying in that manner as they did, and were taught by their inſtructors, did pray by the ſpirit.</p>
+            <p n="5">5. That all things neceſſary for man, either body or ſoule, this life, or that which is to come, are ſummed up in that Prayer, which Chriſt there preſcribed.</p>
+            <p n="6">6. That Publick Prayer is to be preferred before Private, becauſe Chriſt taught them to pray in a Body together, not ſeverally aſunder, bidding them not to ſay My, but Our Father anſwering the Diſciples requeſt, not teach Me, but Us to pray.</p>
+            <p>Now, becauſe the Liturgy, or Publick Service of the Church is laid aſide, and decried as Popiſh and Superſtitious (with other unſeemely expreſſions) and that Chriſts owne Forme of Prayer is in particular villified by ſome irreligious and ſcurrilous tongues; ſome offering to God a worſe then Phariſaicall Thanksgiving, for that they never could ſay it; others that they have forgotten it; a third ſort publickly glorying, that they have not ſayd it in ſo many yeares paſt; and in generall, that it is neglected and left to a careleſſe tuition: And that the Apoſtles Creed is altogether expunged, the New Publick Service either as unneceſſary, or imperfect, or fruitleſſe. <hi>I</hi> have thought good this verſifying way to recall it into peoples mindes, eſpecially thoſe who <hi>(ſtilo Antiquo)</hi> have been incorporated into the Body of Chriſts Congregation, and to remember all undertakers, how at the Holy Font they have ingaged themſelves before God and the Church, to make proviſion that they may learne the Creed, the Lords Prayer, and the ten Commandements in the Engl<gap reason="illegible: missing" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ſh tongue.</p>
+            <p>Reader, this which thou ſeeſt of the Lords Prayer, was ſo done about 23 or 24 yeares ſince, and there are many Coppies of it abroad, the other of the Creed is newly conceived, and delivered to the Light: <hi>I</hi> have nothing to Apologize for my ſelfe, but thoſe Sinewy Lines of that Excellent man, Mr. GEORGE HARBERT in his Church Porch.</p>
+            <q>
+               <l>Thou whoſe ſweet Youth and Early Hopes inhance</l>
+               <l>Thy Rate and Price, and marke thee for a treaſure;</l>
+               <l>Hearken unto a Verſer, who may chance</l>
+               <l>Rhime thee to good, and make a baite of Pleaſure.</l>
+               <l>A Verſe may finde Him, who a Sermon flies,</l>
+               <l>And turne delight into a Sacrifice.</l>
+            </q>
+            <closer>
+               <signed>So Farewell.<lb/>
+GEORGE DITTON.</signed>
+            </closer>
+         </div>
+      </body>
+      <back>
+         <div type="imprimatur">
+            <p>
+               <date>October 22. 1649.</date> 
+               <hi>Imprimatur,</hi>
+            </p>
+            <signed>JOHN DOVVNAME.</signed>
+         </div>
+         <div type="colophon">
+            <p>
+               <hi>London,</hi> Printed by <hi>Thomas Harper,</hi> and are to be ſold by <hi>John Courtney,</hi> in <hi>Salisbury,</hi> 1650.</p>
+         </div>
+      </back>
+   </text>
+</TEI>
